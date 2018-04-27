@@ -247,7 +247,7 @@
 // See if DERIVED_TYPES is required
 #if (defined(NMEAGPS_PARSE_TALKER_ID) | defined(NMEAGPS_PARSE_MFR_ID)) &  \
            !defined(NMEAGPS_DERIVED_TYPES)
-  #error You must define NMEAGPS_DERIVED_TYPES in NMEAGPS.h in order to parse Talker and/or Mfr IDs!
+  #error You must define NMEAGPS_DERIVED_TYPES in NMEAGPS_cfg.h in order to parse Talker and/or Mfr IDs!
 #endif
 
 //------------------------------------------------------
